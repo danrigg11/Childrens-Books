@@ -1,0 +1,187 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+        <title>The Boy Who Creied Wolf</title>
+  </head>
+<script>
+    var Page1Boy = new Audio();
+    Page1Boy.src="Sounds/Page1.mp3";
+</script>
+<script>
+    var Page1Sheep1 = new Audio();
+    Page1Sheep1.src="Sounds/Page1Sheep1.mp3";
+</script>
+<script>
+    var Page1Sheep2 = new Audio();
+    Page1Sheep2.src="Sounds/Page1Sheep2.mp3";
+</script>
+<script>
+    var Page2Boy = new Audio();
+    Page2Boy.src="Sounds/Page2.mp3";
+</script>
+<script>
+    var Page3Boy = new Audio();
+    Page3Boy.src="Sounds/Page3.mp3";
+</script>
+<script>
+    var Page4Boy = new Audio();
+    Page4Boy.src="Sounds/Page4.mp3";
+</script>
+<script>
+    var Page4Sheep = new Audio();
+    Page4Sheep.src="Sounds/Page4Sheep.mp3";
+</script>
+<script>
+    var Page5Boy = new Audio();
+    Page5Boy.src="Sounds/Page5.mp3";
+</script>
+<script>
+    var Page6Boy = new Audio();
+    Page6Boy.src="Sounds/Page6.mp3";
+</script>
+<script>
+    var Page6Wolf = new Audio();
+    Page6Wolf.src="Sounds/Page6Wolf.mp3";
+</script>
+<script>
+    var Page7Boy = new Audio();
+    Page7Boy.src="Sounds/Page7.mp3";
+</script>
+<script>
+    var Page8Boy = new Audio();
+    Page8Boy.src="Sounds/Page8.mp3";
+</script>
+<script>
+    var Page8Donkey = new Audio();
+    Page8Donkey.src="Sounds/Page8Donkey.mp3";
+</script>
+<script>
+    var Page9Boy = new Audio();
+    Page9Boy.src="Sounds/Page9.mp3";
+</script>
+<script>
+    var Page10Boy = new Audio();
+    Page10Boy.src="Sounds/Page10.mp3";
+</script>
+    
+    
+    
+  <body>
+  
+    <div id="page1">
+        <button id="button_inline_1"><a href="BookShelf.html" type="#">Exit Book</a></button>
+        <button id="button_inline_2" onclick="page_1_2()">Open Book</button>
+        <a href="#"><img id="coverImage" src="Images/Cover.png"></a>
+        <p id="pageNumber">0</p>
+    </div><! Front Cover><! Page 0>
+  
+    <div id="page2">
+      <button id="button_inline_1" onclick="page_2_1()">Back Page</button>
+      <button id="button_inline_2" onclick="page_2_3()">Next Page</button>
+        
+       <img src="Images/Page1/1.2.png" id="BackgroundImage" alt="backgroundImage1">
+        
+        <a style="position: absolute; left: 55px;" href="#" onmousedown="Page1Sheep1.play()"><img src="Images/Page1/1-Sheep.1.png" id="Page1Sheep1" alt="Sheep"></a>
+        
+        <a style="position: absolute; left: 55px;" href="#" onmousedown="Page1Sheep2.play()"><img src="Images/Page1/1-Sheep.2.png" id="Page1Sheep2" alt="Sheep"></a>
+        
+        <a style="position: absolute; left: 130px; top: 133px;" href="#" onmousedown="Page1Boy.play()"><img src="Images/Page1/1-Boy.png" id="Page1Boy" alt="Boy"></a>
+        
+        <p style="margin: 0px;">One day, a boy was watching over his sheep. He was very bored. He wanted to play a a trick.</p>
+        
+        <p id="pageNumber">1</p>
+    </div><! Page 1>
+    
+    <div id="page3">
+        <button id="button_inline_1" onclick="page_3_2()">Back Page</button>
+        <button id="button_inline_2" onclick="page_3_4()">Next Page</button>
+        <img id="backgroundImage" src="Images/Page2/2.Background.png" alt="backgroundImage2">
+        <p style="margin: 0px;">"Help! Wolf!" cried the boy.</p>
+        <a href="#" onmousedown="Page2Boy.play()"><img src="Images/Page2/2.boy.png" id="Page2Boy" alt="Boy"></a>
+        <p id="pageNumber">2</p>
+    </div><! Page 2>
+      
+    <div id="page4">
+        <button id="button_inline_1" onclick="page_4_3()">Back Page</button>
+        <button id="button_inline_2" onclick="page_4_5()">Next Page</button>
+        <img id="backgroundImage" src="Images/Page3/background.png" alt="backgroundImage3">
+        <p style="margin: 0px;">The people of the town ran to help. <br>There was no wolf. The boy laughed.</p>
+        <a href="#" onmousedown="Page3Boy.play()"><img src="Images/Page3/3boy.png" id="Page3Boy" alt="Boy"></a>
+        <a href="#" onmousedown="cow.play()"><img src="Images/Page3/3.farmers.png" id="Page3farmers" alt="Boy"></a>
+        <p id="pageNumber">3</p>
+    </div><! Page 3>
+      
+    <div id="page5">
+        <button id="button_inline_1" onclick="page_5_4()">Back Page</button>
+        <button id="button_inline_2" onclick="page_5_6()">Next Page</button>
+        <img id="backgroundImage" src="Images/Page4/4cover.png" alt="backgroundImage4">
+        <a href="#" onmousedown="Page4Boy.play()"><img src="Images/Page4/Pgge4Boy.png" id="Page4Boy" alt="Boy"></a>
+        <a href="#" onmousedown="Page4Sheep.play()"><img src="Images/Page4/Page4Sheep.png" id="Page4Sheep" alt="Sheep"></a>
+        <p style="margin: 0px;">The next week he did it again."Help! Wolf!" cried the boy.</p>
+        <p id="pageNumber">4</p>
+    </div><! Page 4>
+  
+    <div id="page6">
+        <button id="button_inline_1" onclick="page_6_5()">Back Page</button>
+        <button id="button_inline_2" onclick="page_6_7()">Next Page</button>
+        <img id="backgroundImage" src="Images/Page5/Paee5cover.png" alt="backgroundImage5">
+        <a href="#" onmousedown="Page5Boy.play()"><img src="Images/Page5/Pgee5Boy.png" id="Page5Boy" alt="Boy"></a>
+        <a href="#" onmousedown="cow.play()"><img src="Images/Page5/Page5farmers.png" id="Page5farmers" alt="farmers"></a>
+        <p style="margin: 0px;">Again, the prople of the town ran to help. <br>Again, there was no wolf. Again, the boy laughed.</p>
+        <p id="pageNumber">5</p>
+    </div><! Page 5>
+    
+    <div id="page7">
+        <button id="button_inline_1" onclick="page_7_6()">Back Page</button>
+        <button id="button_inline_2" onclick="page_7_8()">Next Page</button>
+        <img id="backgroundImage" src="Images/Page6/page6background.png" alt="backgroundImage6">
+        <a href="#" onmousedown="Page6Boy.play()"><img src="Images/Page6/page6boy.png" id="Page6Boy" alt="Boy"></a>
+        <a href="#" onmousedown="Page6Wolf.play()"><img src="Images/Page6/Page6Wolf.png" id="Page6wolf" alt="wolf"></a>
+        <p style="margin: 0px;">Then, a wolf really did come for the sheep.</p>
+        <p id="pageNumber">6</p>
+    </div><! Page 6>
+      
+    <div id="page8">
+        <img id="backgroundImage" src="Images/Page7/Page7Background.png">
+        <a href="#" onmousedown="Page7Boy.play()"><img src="Images/Page7/Page7Boy.png" id="Page7Boy" alt="Boy"></a>
+        <a href="#" onmousedown="cow.play()"><img src="Images/Page7/Page7Sheep.png" id="Page7Sheep" alt="Sheep"></a>
+        <button id="button_inline_1" onclick="page_8_7()">Back Page</button>
+        <button id="button_inline_2" onclick="page_8_9()">Next Page</button>
+        <p style="margin: 0px;">"Help! Wolf!" cried the boy.</p>
+        <p id="pageNumber">7</p>
+    </div><! Page 7>
+      
+    <div id="page9">
+        <img id="backgroundImage" src="Images/Page8/page8background.png">
+        <a href="#" onmousedown="Page8Boy.play()"><img src="Images/Page8/page8boy.png" id="Page8Boy" alt="Boy"></a>
+        <a href="#" onmousedown="Page8Donkey.play()"><img src="Images/Page8/page8donkey.png" id="Page8Donkey" alt="Donkey"></a>
+        <button id="button_inline_1" onclick="page_9_8()">Back Page</button>
+        <button id="button_inline_2" onclick="page_9_10()">Next Page</button>
+        <p style="margin: 0px;">No one came to help.</p>
+        <p id="pageNumber">8</p>
+    </div><! Page 8>
+      
+    <div id="page10">
+        <img id="backgroundImage" src="Images/Page9/Page9Background.png">
+        <a href="#" onmousedown="Page9Boy.play()"><img src="Images/Page9/Page9Boy.png" id="Page9Boy" alt="Boy"></a>
+        <button id="button_inline_1" onclick="page_10_9()">Back Page</button>
+        <button id="button_inline_2" onclick="page_10_11()">Next Page</button>
+        <p style="margin: 0px;">The wolf chased all the boy's sheep away.</p>
+        <p id="pageNumber">9</p>
+      </div><! Page 9>
+      
+    <div id="page11">
+        <img id="backgroundImage" src="Images/Page10/Page10Background.png">
+        <a href="#" onmousedown="Page10Boy.play()"><img src="Images/Page10/Page10Boy.png" id="Page10Boy" alt="Boy"></a>
+        <a href="#" onmousedown="cow.play()"><img src="Images/Page10/Page10Famer.png" id="Page10Farmers" alt="Farmers"></a>
+        <button id="button_inline_1" onclick="page_11_10()">Back Page</button>
+        <button id="button_inline_2"><a href="BookShelf.html" type="#">The End!</a></button>
+        <p style="margin: 0px;">The boy learned a lesson. People don't believe liars, even when they tell the truth.</p>
+        <p id="pageNumber">10</p>
+      </div><! Page 10>
+      
+  </body>
+  
+</html>

@@ -1,0 +1,286 @@
+.bookShelfFont{
+    text-align: center;
+    font-family: 'Almendra SC', serif;
+    font-size: 50px;
+}
+
+#page1 {
+  z-index: 11;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page1Sheep1{
+    position: relative;
+    top: 203px;
+    left: 13px;
+    height: 65px;
+}
+#Page1Sheep2{
+    position: relative;
+    top: 154px;
+    left: 228px;
+    height: 60px;
+}
+#Page1Boy{
+    position: relative;
+    top: 10px;
+    left: 05px;
+    height: 140px;
+}
+#page2 {
+  z-index: 10;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page2Boy{
+    position: relative;
+    top: -300px;
+    left: 5px;
+    height: 250px;
+    
+}
+#page3 {
+  z-index: 9;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page3Boy{
+    position: absolute;
+    top: 180px;
+    left: 76px;
+    height: 90px;
+}
+#Page3farmers{
+    position: absolute;
+    top: 50px;
+    left: 145px;
+    height: 165px;
+}
+#page4 {
+  z-index: 8;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page4Boy{
+    position: absolute;
+    top: 96px;
+    left: 155px;
+    height: 190px;
+}
+#Page4Sheep{
+    position: absolute;
+    top: 280px;
+    left: 90px;
+    height: 60px;
+}
+#page5 {
+  z-index: 7;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page5Boy{
+    position: absolute;
+    top: 139px;
+    left: 97px;
+    height: 170px;
+}
+#Page5farmers{
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    height: 240px;
+}
+#page6 {
+  z-index: 6;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page6Boy{
+    position: absolute;
+    top: 155px;
+    left: 218px;
+    height: 185px;
+}
+#Page6wolf{
+    position: absolute;
+    top: 45px;
+    left: 105px;
+    height: 130px;
+}
+#page7 {
+  z-index:5;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page7Boy{
+    position: absolute;
+    top: 45px;
+    left: 164px;
+    height: 132px;
+}
+#Page7Sheep{
+    position: absolute;
+    top: 220px;
+    left: 92px;
+    height: 100px;
+}
+#page8{
+  z-index:4 ;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page8Boy{
+    position: absolute;
+    top: 15px;
+    left: 118px;
+    height: 45px;
+}
+#Page8Donkey{
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    height: 90px;
+}
+#page9{
+  z-index:3 ;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page9Boy{
+    position: absolute;
+    top: 27px;
+    left: 147px;
+    height: 257px;
+}
+#page10{
+  z-index:2 ;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+#Page10Boy{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    height: 130px;
+}
+#Page10Farmers{
+    position: absolute;
+    top: 210px;
+    left: 155px;
+    height: 130px;
+}
+#page11{
+  z-index:1 ;
+  position: absolute;
+  background-color: #ffffff;
+  border: 3px solid black;
+  width: 400px;
+  height: 430px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+
+
+#BackgroundImage{
+ height: 330px;   
+margin: 10;
+margin-bottom: 6px;
+}
+#pageNumber{
+    position: absolute;
+    left: 385px;
+    top: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+.close-card {
+  transform: rotateY(0deg);
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+button {
+  background: silver;
+}
+#button_inline_1{
+position: absolute;
+top: 400px;
+left: 50px;
+}
+#button_inline_2{
+position: absolute;
+top: 400px;
+left: 280px;
+}
+
+#coverImage{
+    height: 370px;
+}
